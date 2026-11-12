@@ -1,0 +1,114 @@
+////////////////////////////////////////////////////////////
+Starting conversion at 12/11/2026 3:29:09,85
+////////////////////////////////////////////////////////////
+Progress:ERROR 4402: Connection Id '' not found
+ERROR 4402: Connection Id '' not found
+
+------------------------------------------------------------
+Converting Recnum table: 253, CodeType, Code Maintenance Type Table
+Progress:Start time: 12/11/2026 3:29:09,853
+Start time: 12/11/2026 3:29:09,853
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Progress:Creating intermediate file.
+Creating intermediate file.
+CLI_DROPINDICES
+Progress:Temporary delete of all indices of table codetype.
+Temporary delete of all indices of table codetype.
+Progress:Dropping primary key PRIMARY.
+Dropping primary key PRIMARY.
+Progress:Copying record
+Progress:All 0 records copied.
+All 0 records copied.
+CLI_CREATEINDICES
+Progress:Re-creating temporary deleted indices of table codetype.
+Re-creating temporary deleted indices of table codetype.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Close hSQLTable
+Close ahTables[iCount]
+Adjust filelist slot
+Output_def_file
+Progress:End time: 12/11/2026 3:29:10,272
+End time: 12/11/2026 3:29:10,272
+Progress:Total time to convert table: 0:0:0:0,419
+Total time to convert table: 0:0:0:0,419
+
+------------------------------------------------------------
+Converting Recnum table: 254, CodeMast, Code Maintenance Code Table
+Progress:Start time: 12/11/2026 3:29:10,275
+Start time: 12/11/2026 3:29:10,275
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_RECNUM_TABLE to 0
+Replacing recnum with primary index:1
+Set_Attribute DF_FILE_PRIMARY_INDEX to 1
+Set_Attribute DF_INDEX_SQL_PRIMARY_KEY to 1
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Progress:Creating intermediate file.
+Creating intermediate file.
+CLI_DROPINDICES
+Progress:Temporary delete of all indices of table codemast.
+Temporary delete of all indices of table codemast.
+Progress:Dropping primary key PRIMARY.
+Dropping primary key PRIMARY.
+Progress:Copying record
+Progress:All 0 records copied.
+All 0 records copied.
+CLI_CREATEINDICES
+Progress:Re-creating temporary deleted indices of table codemast.
+Re-creating temporary deleted indices of table codemast.
+Progress:Creating primary key PRIMARY.
+Creating primary key PRIMARY.
+Close hSQLTable
+Close ahTables[iCount]
+Adjust filelist slot
+Output_def_file
+Progress:End time: 12/11/2026 3:29:10,69
+End time: 12/11/2026 3:29:10,69
+Progress:Total time to convert table: 0:0:0:0,415
+Total time to convert table: 0:0:0:0,415
+
+------------------------------------------------------------
+Converting Recnum table: 270, DFLastID, DFLastID
+Progress:Start time: 12/11/2026 3:29:10,694
+Start time: 12/11/2026 3:29:10,694
+Structure_Start
+Structure_Copy
+Set_Attribute DF_FILE_PRIMARY_INDEX to 0
+AssignMinimalLength
+RealignOverlaps
+Structure_End
+Progress:Creating new table.
+Creating new table.
+Progress:ERROR 12289: Error general HY000 (1113)--[MySQL][ODBC 26.10(w) Driver][mysqld-13.0.2-MariaDB]A table must have at least 1 column  Table = DFLastID (0), Source = ODBC_DRV.Structure_End.CreateTable
+ERROR 12289: Error general HY000 (1113)--[MySQL][ODBC 26.10(w) Driver][mysqld-13.0.2-MariaDB]A table must have at least 1 column  Table = DFLastID (0), Source = ODBC_DRV.Structure_End.CreateTable
+Progress:End time: 12/11/2026 3:29:10,699
+End time: 12/11/2026 3:29:10,699
+Progress:Total time to convert table: 0:0:0:0,005
+Total time to convert table: 0:0:0:0,005
+
+############################################################
+List of tables that experienced errors while converting:
+   DFLastID - Unable to create.
+////////////////////////////////////////////////////////////
+Finished conversion at 12/11/2026 3:29:10,701
+Total conversion time: 0:0:0:0,849
+////////////////////////////////////////////////////////////
