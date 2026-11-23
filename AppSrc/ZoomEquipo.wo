@@ -7,6 +7,7 @@ Use cWebPanel.pkg
 Use cWebMenuGroup.pkg
 Use cWebMenuItem.pkg
 Use cWebForm.pkg
+Use cWebButton.pkg
 
 Use cLigaDataDictionary.dd
 Use cEquipoDataDictionary.dd
@@ -34,6 +35,19 @@ Object oZoomEquipo is a cWebView
     Object oWebMainPanel is a cWebPanel
         Set piColumnCount to 12
         WebSetResponsive piColumnCount rmMobile to 4
+
+        Object oJugadoresBtn is a cWebButton
+            Set piColumnSpan to 4
+            Set piColumnIndex to 0
+            Set psCaption to "Ver jugadores"
+            Set pbServerOnClick to True
+
+            WebRegisterPath ntNavigateForward oSelectJugador
+
+            Procedure OnClick
+                Send NavigatePath
+            End_Procedure
+        End_Object
 
         Object oequipoNombre is a cWebForm
             Entry_Item equipo.Nombre
@@ -89,8 +103,10 @@ Object oZoomEquipo is a cWebView
             Set psCSSClass to "WebIcon_Refresh"
             Set psCaption to "Clear Changes"
             Set peActionDisplay to adMenu
+            Set pbServerOnClick to True
+
             Procedure OnClick
-                Send RefreshRecord
+                Send NavigatePath
             End_Procedure
 
         End_Object 
