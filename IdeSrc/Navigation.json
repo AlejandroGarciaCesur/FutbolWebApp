@@ -2,13 +2,13 @@
    "Projects": [
      {
        "nZoom": 0.8,
-       "nPositionX": 262.5,
-       "nPositionY": -10.75,
+       "nPositionX": 32.5,
+       "nPositionY": -110.75,
        "nWidth": 1751.25,
        "nHeight": 827.5,
        "sProject": "WebApp.src",
        "bShowWebApp": false,
-       "bShowHidden": false,
+       "bShowHidden": true,
        "Elements": [
          {
            "Name": "oDashboard",
@@ -61,8 +61,8 @@
          {
            "Name": "oSelectJugador",
            "Position": {
-             "sX": "720",
-             "sY": "315"
+             "sX": "700",
+             "sY": "275"
            },
            "TabColor": {
              "sColorDM": "#052713",
@@ -121,8 +121,8 @@
          {
            "Name": "oZoomEquipo",
            "Position": {
-             "sX": "360",
-             "sY": "530"
+             "sX": "350",
+             "sY": "550"
            },
            "TabColor": {
              "sColorDM": "#9B3904",
@@ -133,14 +133,14 @@
          {
            "Name": "oZoomJugador",
            "Position": {
-             "sX": "720",
-             "sY": "530"
+             "sX": "700",
+             "sY": "525"
            },
            "TabColor": {
              "sColorDM": "#CE4C01",
              "sColorLM": "#FF7F42"
            },
-           "bHidden": false
+           "bHidden": true
          },
          {
            "Name": "oZoomLiga",

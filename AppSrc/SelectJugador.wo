@@ -45,6 +45,8 @@ Object oSelectJugador is a cWebView
         Set pbShowHeader to False
         Set piSortColumn to 0
 
+        WebRegisterPath ntNavigateForward oZoomJugador
+
         Object ojugadorNombre is a cWebColumn
             Entry_Item jugador.Nombre
             Set psCaption to "jugador.Nombre"
@@ -137,9 +139,12 @@ Error DFERR_PROGRAM "NavigateForward to this from-parent child Select view not y
         Object oSearch is a cWebMenuItem
             Set psCSSClass to "WebPromptMenuItem"
             Set psCaption to "Search"
+            Set pbServerOnClick to True
+
+            WebRegisterPath ntNavigateForward oZoomJugador
 
             Procedure OnClick
-                Send Search of oList
+                Send NavigatePath
             End_Procedure
 
         End_Object 
