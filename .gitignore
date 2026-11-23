@@ -1,0 +1,7 @@
+Programs/WebApp.exe
+Programs/WebApp.dbg
+*.cch
+*.dep
+*.prn
+Data/WebAppServerProps.dat
+Data/WebAppSession.dat
