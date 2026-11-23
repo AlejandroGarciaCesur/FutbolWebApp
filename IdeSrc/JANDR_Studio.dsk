@@ -18,17 +18,6 @@ Right=1418
 TabIndex=0
 TabGroup=0
 [Window1]
-Filename=C:\Users\JANDR\Desktop\FutbolWebApp\AppSrc\ZoomEquipo.wo
-ViewType=1
-Top=21
-Left=0
-Bottom=718
-Right=1418
-CursorLine=12
-CursorColumn=28
-TabIndex=4
-TabGroup=0
-[Window2]
 Filename=Navigation Designer
 ViewType=103
 Top=21
@@ -37,7 +26,7 @@ Bottom=718
 Right=1418
 TabIndex=2
 TabGroup=0
-[Window3]
+[Window2]
 Filename=C:\Users\JANDR\Desktop\FutbolWebApp\AppSrc\ZoomJugador.wo
 ViewType=1
 Top=21
@@ -48,6 +37,17 @@ CursorLine=58
 CursorColumn=0
 TabIndex=3
 TabGroup=0
+[Window3]
+Filename=C:\Users\JANDR\Desktop\FutbolWebApp\AppSrc\ZoomEquipo.wo
+ViewType=1
+Top=21
+Left=0
+Bottom=718
+Right=1418
+CursorLine=12
+CursorColumn=28
+TabIndex=4
+TabGroup=0
 [Window4]
 Filename=C:\Users\JANDR\Desktop\FutbolWebApp\AppSrc\WebApp.src
 ViewType=1
@@ -55,7 +55,7 @@ Top=21
 Left=0
 Bottom=718
 Right=1418
-CursorLine=175
-CursorColumn=46
+CursorLine=72
+CursorColumn=48
 TabIndex=1
 TabGroup=0
